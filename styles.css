@@ -26,11 +26,6 @@ section {
 padding: 50px 10%;
 }
 
-body.active {
-color: #fff;
-background-color: #0f0c27;
-}
-
 body {
 background: #A5D7E8;
 color: #0f0c27;
