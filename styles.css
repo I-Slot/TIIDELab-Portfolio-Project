@@ -11,6 +11,7 @@ scroll-padding-top: 2rem;
 font-family: "Poppins", sans-serif;
 }
 
+
 /* :root {
 --main-color: #033a80;
 --bg-color: #fff;
@@ -97,7 +98,7 @@ font-weight: 500;
 }
 
 .navbar a:hover {
-color: var(--hover);
+color: hsl(260, 100%, 51%);
 }
 
 #menu-icon {
@@ -131,12 +132,12 @@ border: 5px solid #576CBC;
 }
 
 .home-text span {
-font-size: var(--medium-font);
+font-size: 1.8rem;
 font-weight: 200;
 }
 
 .home-text h1 {
-font-size: var(--medium-font);
+font-size: 1.8rem;
 }
 
 .home-text h2 {
@@ -145,7 +146,7 @@ font-weight: 400;
 }
 
 .home-text p {
-font-size: var(--p-font);
+font-size: 0.941rem;
 font-weight: 400;
 margin: 0.7rem 0 1rem;
 }
@@ -162,7 +163,7 @@ color: #0f0c27;
 }
 
 .social a:hover {
-color: var(--hover);
+color: hsl(260, 100%, 51%);
 }
 
 .btn {
@@ -174,7 +175,7 @@ border-radius: 0.5rem;
 }
 
 .btn:hover {
-background: var(--hover);
+background: hsl(260, 100%, 51%);
 }
 
 
@@ -192,7 +193,7 @@ border: 5px solid #033a80;
 }
 
 .about-text p {
-font-size: var(--p-font);
+font-size: 0.941rem;
 font-weight: 400;
 text-align: justify;
 }
@@ -328,7 +329,7 @@ color: #22cf91;
 
 .services-box a {
 color: #033a80;
-font-size: var(--p-font);
+font-size: 0.941rem;
 font-weight: 500;
 }
 
@@ -382,7 +383,7 @@ margin-left: 35%;
 }
 
 .contact-button:hover {
-background: var(--hover);
+background: hsl(260, 100%, 51%);
 }
 
 .footer {
@@ -475,12 +476,6 @@ header .navbar {
     padding: 1.5rem;
     display: block;
     background: var(--bg-color);
-}
-
-#darkmode {
-    position: absolute;
-    top: 1.4rem;
-    right: 2rem;
 }
 
 .scroll-down {
