@@ -94,6 +94,9 @@ font-weight: 500;
 
 .navbar a:hover {
 color: hsl(260, 100%, 51%);
+background-color: #02225a;
+color: white;
+border-radius: 10px;
 }
 
 #menu-icon {
