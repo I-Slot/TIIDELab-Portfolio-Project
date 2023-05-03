@@ -185,7 +185,7 @@ margin-top: 2rem;
 }
 
 .about-img img {
-width: 70%;
+max-width: 70%;
 border-radius: 0.5rem;
 border: 5px solid #033a80;
 }
@@ -193,8 +193,31 @@ border: 5px solid #033a80;
 .about-text p {
 font-size: 0.941rem;
 font-weight: 400;
-text-align: justify;
+text-align: left;
+max-width: 80%;
 }
+
+.gallary{
+    width: 100%;
+    align-items: center;
+}
+
+.gallary > h1{
+    color: #0f0c27;
+    margin-bottom: 20px;
+    margin-left: auto;
+    width: 200px;
+}
+
+.gallary-pic{
+    width: 80px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+    
+} 
 
 .information {
 margin: 1rem 0 1.4rem;
@@ -277,9 +300,6 @@ width: 84%;
 width: 74%;
 }
 
-.react-bar {
-width: 80%;
-}
 
 .services-content {
 display: grid;
@@ -291,7 +311,7 @@ margin-top: 2rem;
 
 .services-box {
 padding: 20px;
-width: 260px;
+max-width: 260px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -465,6 +485,24 @@ header .navbar {
     transition: 0.2s ease;
     text-align: center;
 }
+.gallary-pic{
+ flex-direction: column;
+ margin: auto;
+ max-width: 30%;
+}
+
+.gallary > h1{
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.gallary-pic > img{
+    border-radius: 15px;
+    border: 5px solid rgb(2, 2, 31);
+}
+
+
 
 .navbar.active {
     top: 100%;
@@ -534,6 +572,10 @@ header .navbar {
 .home-text span {
     font-size: 1rem;
 }
+
+/* .gallary-pic{
+ flex-direction: column;
+} */
 
 .home-text h2 {
     font-size: 0.9rem;
