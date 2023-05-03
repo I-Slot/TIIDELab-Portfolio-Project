@@ -108,7 +108,7 @@ display: none;
 
 .home {
 position: relative;
-width: 100%;
+max-width: 100%;
 min-height: 100vh;
 display: grid;
 grid-template-columns: 0.2fr 1fr 1fr;
@@ -121,7 +121,7 @@ order: 3;
 }
 
 .home-img img {
-width: 80%;
+max-width: 80%;
 border-radius: 10%;
 /* transform: rotate(30deg); */
 margin-left: 80px;
