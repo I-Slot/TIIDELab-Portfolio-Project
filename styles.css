@@ -488,6 +488,7 @@ form textarea {
     flex-direction: column;
     margin: auto;
     max-width: 30vb;
+    margin-left: 80px;
   }
 
   .gallary > h1 {
