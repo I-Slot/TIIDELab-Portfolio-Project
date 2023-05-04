@@ -112,7 +112,6 @@ header.shadow {
   grid-template-columns: 0.2fr 1fr 1fr;
   align-items: center;
   gap: 1rem;
-  margin-left: 50px;
 }
 
 .home-img {
@@ -186,7 +185,6 @@ header.shadow {
   max-width: 70%;
   border-radius: 0.5rem;
   border: 5px solid #033a80;
-  margin-left: 50px;
 }
 
 .about-text p {
@@ -490,7 +488,6 @@ form textarea {
     flex-direction: column;
     margin: auto;
     max-width: 30vb;
-    /* margin-left: 100px; */
   }
 
   .gallary > h1 {
