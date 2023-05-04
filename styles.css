@@ -178,6 +178,7 @@ header.shadow {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 80%;
 }
 
 .about-img img {
@@ -487,6 +488,7 @@ form textarea {
     flex-direction: column;
     margin: auto;
     max-width: 30vb;
+    margin-left: 100px;
   }
 
   .gallary > h1 {
@@ -535,6 +537,10 @@ form textarea {
     display: flex;
     justify-content: center;
   }
+  /* .about-text{
+    text-align: center;
+    margin-left: 0px;
+  } */
 
   .skills-container {
     grid-template-columns: 1fr;
