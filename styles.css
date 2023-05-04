@@ -27,7 +27,7 @@ section {
 
 body {
   background: #a5d7e8;
-  color: #0f0c27;
+  color: #0f0c27;;
 }
 
 *::selection {
@@ -181,7 +181,7 @@ header {
   width: 50%;
   border-radius: 0.5rem;
   border: 5px solid #033a80;
-  /* margin-left: 100px; */
+  margin-left: 100px;
 }
 
 .about-text p {
@@ -196,25 +196,24 @@ header {
   
 }
 
-.gallary > h1 {
+.gallery > h1 {
   color: #0f0c27;
   margin-bottom: 20px;
   margin-left: 600px;
   width: 100%;
 }
 
-.gallary-pic {
-  width: 100%;
+.gallery-pic {
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: nowrap;
   gap: 25px;
   cursor: pointer;
 }
 
-.gallary-pic > img {
+.gallery-pic > img {
   border-radius: 5px;
   width: 50%;
   display: flex;
@@ -443,7 +442,7 @@ form textarea {
 
 /* For Mobile */
 @media (max-width: 991px) {
-  header, .gallary {
+  header {
     padding: 18px 4%;
   }
 
@@ -457,9 +456,9 @@ form textarea {
     --big-font: 2.7rem;
     --medium-font: 1.4rem;
   }
-  .gallary{
+  /* .gallary{
     padding: 18px 4%;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -487,30 +486,6 @@ form textarea {
     background: var(--bg-color);
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
     transition: 0.2s ease;
-    text-align: center;
-  }
-  .gallary-pic {
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    /* max-width: 30px; */
-    /* width: 100%; */
-  }
-
-  .gallary > h1 {
-    margin: auto;
-    align-items: center;
-    text-align: center;
-  }
-
-  .gallary-pic > img {
-    border-radius: 15px;
-    border: 5px solid rgb(2, 2, 31);
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* margin: auto; */
-    margin-left: 30px;
-    width: 300px;
     text-align: center;
   }
 
