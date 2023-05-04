@@ -63,10 +63,6 @@ header {
   box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
 }
 
-header.shadow {
-  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
-}
-
 .logo {
   font-size: 1.61rem;
   font-weight: 600;
@@ -178,14 +174,14 @@ header.shadow {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 2rem;
-  width: 80%;
+  width: 100%;
 }
 
 .about-img img {
   width: 50%;
   border-radius: 0.5rem;
   border: 5px solid #033a80;
-  /* margin-left: 200px; */
+  /* margin-left: 100px; */
 }
 
 .about-text p {
@@ -193,37 +189,37 @@ header.shadow {
   font-weight: 400;
   text-align: left;
   /* width: 80%; */
+  margin-right: 100px;
 }
 
-/* .gallary {
-  width: 50%;
-  align-items: center;
-} */
+.gallary {
+  
+}
 
 .gallary > h1 {
   color: #0f0c27;
   margin-bottom: 20px;
   margin-left: 600px;
-  width: 50%;
+  width: 100%;
 }
 
 .gallary-pic {
-  max-width: 80px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  flex-wrap: nowrap;
   gap: 25px;
-  margin-left: 60px;
   cursor: pointer;
-}
-
-.gallary-pic:hover{
-  width: 200px;
 }
 
 .gallary-pic > img {
   border-radius: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .information {
@@ -497,17 +493,14 @@ form textarea {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    max-width: 30px;
+    /* max-width: 30px; */
     /* width: 100%; */
   }
 
   .gallary > h1 {
     margin: auto;
-    /* padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-left: 100px; */
-    /* justify-content: center; */
     align-items: center;
+    text-align: center;
   }
 
   .gallary-pic > img {
